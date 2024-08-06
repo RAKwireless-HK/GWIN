@@ -37,13 +37,13 @@ class GStack_Web_controller:
     def set_project(self, project: str):
         # //*[@id="project-select-dropdown"]/i Click
         self.web_controller.wait_element_load_n_click('//*[@id="project-select-dropdown"]/i')
-        if project == "1696EM23M":
+        if project == A :# <-- (PROJECT_01)
             # //*[@id="project-select-dropdown"]/div[2]/div[1]
             self.web_controller.wait_element_load_n_click('//*[@id="project-select-dropdown"]/div[2]/div[1]')
-        elif project == "1697EM23M":
+        elif project == B :# <-- (PROJECT_02)
             # //*[@id="project-select-dropdown"]/div[2]/div[2]
             self.web_controller.wait_element_load_n_click('//*[@id="project-select-dropdown"]/div[2]/div[2]')
-        elif project == "1698EM23M":
+        elif project == C :# <-- (PROJECT_03)
             # //*[@id="project-select-dropdown"]/div[2]/div[3]
             self.web_controller.wait_element_load_n_click('//*[@id="project-select-dropdown"]/div[2]/div[3]')
 
