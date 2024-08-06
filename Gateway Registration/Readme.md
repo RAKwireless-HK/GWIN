@@ -1,5 +1,5 @@
 # How to Setup
-Revise the variables in Registor_Gateway_info.py
+Revise the variables in Registor_Gateway_info.py. Fill in all Gateway Data in Gateway_INFO.xlsx and save the file.
 
 # How to use?
 Run Registor_Gateway_info.py
