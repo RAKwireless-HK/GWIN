@@ -1,8 +1,8 @@
 from datetime import timedelta
 
 class SIM_Info:
-    def __init__(self, Project, SIM_ICCID, SIM_MRT, SIM_CARRIER, SIM_APN, SIM_IP, ACTIVE_Date):
-        self.ORGANIZATION = [PROJECT_ORGANIZATION]
+    def __init__(self, Project, SIM_ICCID, SIM_MRT, SIM_CARRIER, SIM_APN, SIM_IP, ACTIVE_Date, ORGANIZATION, SIM_OWNER):
+        self.ORGANIZATION = ORGANIZATION
         self.PROJECT = Project
         self.SIM_ICCID = SIM_ICCID
         self.SIM_MRT = SIM_MRT # Mobile Phone number
@@ -12,7 +12,7 @@ class SIM_Info:
         self.ACTIVE_Date = ACTIVE_Date
         # self.END_Date = ACTIVE_Date + 365 days
         self.END_Date = ACTIVE_Date + timedelta(days=365)
-        self.SIM_OWNER = [SIM_OWNER_NAME]
+        self.SIM_OWNER = SIM_OWNER
 
 class GStack_Webpage:
     def __init__(self, _gstack):
