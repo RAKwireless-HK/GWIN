@@ -14,7 +14,6 @@ import time
 import openpyxl
 from typing import List
 import os
-import Web_Controller as wc
 
 class GStack_Webpage:
     def __init__(self):
