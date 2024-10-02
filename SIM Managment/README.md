@@ -1,4 +1,5 @@
 ## How to use
+ - Download all files in this folder
  - Revise variables in:
    -  Add_SIM.py
    -  Common_Obj.py
